@@ -49,7 +49,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding:200px 0 400px 0 ;
+    padding:250px 0 400px 0 ;
   }
   .intro h1{
     color: white;
@@ -64,3 +64,48 @@
     padding: 11px 48px;
     font-size: 18px;
   }
+
+.intro__blocks{
+    display: flex;
+    gap: 21px;
+    position: absolute;
+    bottom: -30%;
+    left: 10%;
+
+
+}
+
+  .intro_block{
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    padding: 39px 48px 37px 39px;
+    min-width: 386px;
+    position: relative;
+  }
+  .intro_block p{
+   font-weight: 700;
+   font-size: 18px;
+   margin: 21px 0 15px 0;
+  }
+  .intro_block span{
+     font-weight: 400;
+     font-size: 18px;
+     color: #B7B7B7;
+  }
+  .intro_block::before{
+    content: "";
+    background-image: url(images/phone.svg);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+ }
+ .intro_block_calendar::before{
+    content: "";
+    background-image: url(images/calendar.svg);
+ }
+ .intro_block_location::before{
+    content: "";
+    background-image: url(images/location.svg);
+ }
