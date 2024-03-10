@@ -334,3 +334,9 @@ text-align: center;
   transform: translateY(-15px);
   font-size: 12px;
 }
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
